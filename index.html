@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Joshua Ogunsola Coding Projects</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+
+  <style>
+    body {
+      background: #0f172a;
+    }
+
+    .glass {
+      background: rgba(255, 255, 255, 0.06);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .copy-btn:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+
+<body class="text-white min-h-screen">
+
+  <!-- HEADER -->
+  <header class="text-center py-12 px-4">
+    <h1 class="text-4xl md:text-5xl font-extrabold">
+      MY CODING PROJECTS
+    </h1>
+
+
+
+
+    <p class="text-slate-300 mt-4 text-lg">
+      Project Submission Portfolio
+    </p>
+    <p>Joshua Ogunsola (240591)</p>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-4 pb-20">
+
+    <!-- ================= LEVEL 1 ================= -->
+    <section class="mb-16">
+
+      <div class="flex items-center gap-3 mb-8">
+        <div class="w-3 h-10 bg-cyan-400 rounded-full"></div>
+        <h2 class="text-3xl font-bold text-cyan-400">
+          Level 1
+        </h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8">
+
+        <!-- PROJECT 1 -->
+        <div class="glass rounded-3xl p-6 shadow-2xl">
+
+          <h3 class="text-2xl font-bold mb-6">
+            Project 1
+          </h3>
+
+          <!-- LIVE DEMO -->
+          <div class="mb-5">
+            <label class="block mb-2 font-semibold text-slate-300">
+              Live Demo
+            </label>
+
+            <div class="flex gap-3">
+              <input
+                id="live1"
+                type="text"
+                value="https://joogadauto.netlify.app/"
+                readonly
+                class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm outline-none"
+              />
+
+              <button
+                onclick="copyText('live1')"
+                class="copy-btn bg-cyan-500 hover:bg-cyan-600 px-4 rounded-xl transition duration-300"
+              >
+                <i class="fa-solid fa-copy"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- REPO LINK -->
+          <div class="mb-5">
+            <label class="block mb-2 font-semibold text-slate-300">
+              Repo Link
+            </label>
+
+            <div class="flex gap-3">
+              <input
+                id="repo1"
+                type="text"
+                value="https://github.com/Joogad14/joogad.git"
+                readonly
+                class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm outline-none"
+              />
+
+              <button
+                onclick="copyText('repo1')"
+                class="copy-btn bg-purple-500 hover:bg-purple-600 px-4 rounded-xl transition duration-300"
+              >
+                <i class="fa-solid fa-copy"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- ABOUT -->
+          <div>
+            <h4 class="font-semibold text-slate-300 mb-2">
+              About
+            </h4>
+
+            <p class="text-slate-400 leading-7" style="text-align: justify;">
+              This project was built using HTML, CSS, and Bootstrap, and it is a simple, 
+              responsive website designed for a car dealership.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- PROJECT 2 -->
+        <div class="glass rounded-3xl p-6 shadow-2xl">
+
+          <h3 class="text-2xl font-bold mb-6">
+            Project 2
+          </h3>
+
+          <!-- LIVE DEMO -->
+          <div class="mb-5">
+            <label class="block mb-2 font-semibold text-slate-300">
+              Live Demo
+            </label>
+
+            <div class="flex gap-3">
+              <input
+                id="live2"
+                type="text"
+                value="https://flkker.netlify.app/"
+                readonly
+                class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm outline-none"
+              />
+
+              <button
+                onclick="copyText('live2')"
+                class="copy-btn bg-cyan-500 hover:bg-cyan-600 px-4 rounded-xl transition duration-300"
+              >
+                <i class="fa-solid fa-copy"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- REPO LINK -->
+          <div class="mb-5">
+            <label class="block mb-2 font-semibold text-slate-300">
+              Repo Link
+            </label>
+
+            <div class="flex gap-3">
+              <input
+                id="repo2"
+                type="text"
+                value="https://github.com/Joogad14/flkker.git"
+                readonly
+                class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm outline-none"
+              />
+
+              <button
+                onclick="copyText('repo2')"
+                class="copy-btn bg-purple-500 hover:bg-purple-600 px-4 rounded-xl transition duration-300"
+              >
+                <i class="fa-solid fa-copy"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- ABOUT -->
+          <div>
+            <h4 class="font-semibold text-slate-300 mb-2">
+              About
+            </h4>
+
+            <p class="text-slate-400 leading-7" style="text-align: justify;">
+              A responsive, user-friendly web application built with HTML, CSS, 
+              and Bootstrap for seamless navigation. Features a dynamic image carousel with 
+              smooth transitions.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= LEVEL 2 ================= -->
+    <section class="mb-16">
+
+      <div class="flex items-center gap-3 mb-8">
+        <div class="w-3 h-10 bg-pink-400 rounded-full"></div>
+        <h2 class="text-3xl font-bold text-pink-400">
+          Level 2
+        </h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8">
+
+        <!-- PROJECT 1 -->
+        <div class="glass rounded-3xl p-6 shadow-2xl">
+
+          <h3 class="text-2xl font-bold mb-6">
+            Project 1
+          </h3>
+
+          <!-- LIVE DEMO -->
+          <div class="mb-5">
+            <label class="block mb-2 font-semibold text-slate-300">
+              Live Demo
+            </label>
+
+            <div class="flex gap-3">
+              <input
+                id="live1"
+                type="text"
+                value="https://evaluationt.netlify.app/"
+                readonly
+                class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm outline-none"
+              />
+
+              <button
+                onclick="copyText('live1')"
+                class="copy-btn bg-cyan-500 hover:bg-cyan-600 px-4 rounded-xl transition duration-300"
+              >
+                <i class="fa-solid fa-copy"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- REPO LINK -->
+          <div class="mb-5">
+            <label class="block mb-2 font-semibold text-slate-300">
+              Repo Link
+            </label>
+
+            <div class="flex gap-3">
+              <input
+                id="repo1"
+                type="text"
+                value="https://github.com/Joogad14/Evaluation-Table-3.0.git"
+                readonly
+                class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm outline-none"
+              />
+
+              <button
+                onclick="copyText('repo1')"
+                class="copy-btn bg-purple-500 hover:bg-purple-600 px-4 rounded-xl transition duration-300"
+              >
+                <i class="fa-solid fa-copy"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- ABOUT -->
+          <div>
+            <h4 class="font-semibold text-slate-300 mb-2">
+              About
+            </h4>
+
+            <p class="text-slate-400 leading-7" style="text-align: justify;">
+              This project focuses on solving a real-world problem using responsive frontend 
+              development and clean UI design for an evaluation tool with +, -, /, × operations. 
+              Built using HTML, CSS, and JavaScript.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- PROJECT 2 -->
+        <div class="glass rounded-3xl p-6 shadow-2xl">
+
+          <h3 class="text-2xl font-bold mb-6">
+            Project 2
+          </h3>
+
+          <!-- LIVE DEMO -->
+          <div class="mb-5">
+            <label class="block mb-2 font-semibold text-slate-300">
+              Live Demo
+            </label>
+
+            <div class="flex gap-3">
+              <input
+                id="live2"
+                type="text"
+                value="https://joogad-chat.web.app/"
+                readonly
+                class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm outline-none"
+              />
+
+              <button
+                onclick="copyText('live2')"
+                class="copy-btn bg-cyan-500 hover:bg-cyan-600 px-4 rounded-xl transition duration-300"
+              >
+                <i class="fa-solid fa-copy"></i>
+              </button>
+            </div>
+          </div>
+          <!-- ABOUT -->
+          <div>
+            <h4 class="font-semibold text-slate-300 mb-2">
+              About
+            </h4>
+
+            <p class="text-slate-400 leading-7" style="text-align: justify;">
+              A responsive, real-time group chat application built with HTML, CSS, Bootstrap, and 
+              Firebase. Users can create accounts, log in, send messages, 
+              and upload files/images with Firebase Authentication and Cloud Storage.
+            </p>
+          </div>
+
+          </div>
+
+          
+        </div>
+
+      </div>
+
+      </div>
+    </section>
+
+    <!-- ================= LEVEL 3 ================= -->
+    <section class="mb-16">
+      <div class="flex items-center gap-3 mb-8">
+        <div class="w-3 h-10 bg-pink-400 rounded-full"></div>
+        <h2 class="text-3xl font-bold text-pink-400">
+          Level 3
+        </h2>
+      </div>
+
+      <div class="glass rounded-3xl p-6 shadow-2xl">
+
+          <h3 class="text-2xl font-bold mb-6">
+            Project
+          </h3>
+
+          <!-- LIVE DEMO -->
+          <div class="mb-5">
+            <label class="block mb-2 font-semibold text-slate-300">
+              Live Demo
+            </label>
+
+            <div class="flex gap-3">
+              <input
+                id="live2"
+                type="text"
+                value="https://joogadautomart.netlify.app/"
+                readonly
+                class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm outline-none"
+              />
+
+              <button
+                onclick="copyText('live2')"
+                class="copy-btn bg-cyan-500 hover:bg-cyan-600 px-4 rounded-xl transition duration-300"
+              >
+                <i class="fa-solid fa-copy"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- BACKEND REPO LINK -->
+          <div class="mb-5">
+            <label class="block mb-2 font-semibold text-slate-300">
+              Backend Repo Link
+            </label>
+
+            <div class="flex gap-3">
+              <input
+                id="repo2"
+                type="text"
+                value="https://github.com/Joogad14/JOOGAD-AUTOMART-Backend.git"
+                readonly
+                class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm outline-none"
+              />
+
+              <button
+                onclick="copyText('repo2')"
+                class="copy-btn bg-purple-500 hover:bg-purple-600 px-4 rounded-xl transition duration-300"
+              >
+                <i class="fa-solid fa-copy"></i>
+              </button>
+            </div>
+
+            <!-- FRONTEND REPO LINK -->
+          <div class="mb-5">
+            <label class="block mb-2 font-semibold text-slate-300">
+              Frontend Repo Link
+            </label>
+
+            <div class="flex gap-3">
+              <input
+                id="repo2"
+                type="text"
+                value="https://github.com/Joogad14/JOOGAD-AUTOMART-Frontend.git"
+                readonly
+                class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm outline-none"
+              />
+
+              <button
+                onclick="copyText('repo2')"
+                class="copy-btn bg-purple-500 hover:bg-purple-600 px-4 rounded-xl transition duration-300"
+              >
+                <i class="fa-solid fa-copy"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- ABOUT -->
+          <div>
+            <h4 class="font-semibold text-slate-300 mb-2">
+              About
+            </h4>
+
+            <p class="text-slate-400 leading-7" style="text-align: justify;">
+              A responsive and user-friendly full-stack Automart web application built using React.js, Next.js, CSS, 
+              Node.js, MongoDB, Firebase Authentication, and Cloudinary for image upload and optimization. 
+              Users can create accounts normally or with Google Auth, log in, and make reservations from the home page. 
+              User and admin dashboards are currently under development. The admin dashboard will manage users, orders, 
+              payments, reservations, and other key operations. 
+            </p>
+          </div>
+
+    </section>
+
+    <!-- ================= LEVEL 4 ================= -->
+    <section class="mb-16">
+      <div class="flex items-center gap-3 mb-8">
+        <div class="w-3 h-10 bg-pink-400 rounded-full"></div>
+        <h2 class="text-3xl font-bold text-pink-400">
+          Level 4
+        </h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8">
+
+        <!-- PROJECT 1 -->
+        <div class="glass rounded-3xl p-6 shadow-2xl">
+
+          <h3 class="text-2xl font-bold mb-6">
+            Project 1
+          </h3>
+
+          <!-- LIVE DEMO -->
+          <div class="mb-5">
+            <label class="block mb-2 font-semibold text-slate-300">
+              Live Demo
+            </label>
+
+            <div class="flex gap-3">
+              <input
+                id="live1"
+                type="text"
+                value="https://tailwindcssl.netlify.app/"
+                readonly
+                class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm outline-none"
+              />
+
+              <button
+                onclick="copyText('live1')"
+                class="copy-btn bg-cyan-500 hover:bg-cyan-600 px-4 rounded-xl transition duration-300"
+              >
+                <i class="fa-solid fa-copy"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- REPO LINK -->
+          <div class="mb-5">
+            <label class="block mb-2 font-semibold text-slate-300">
+              Repo Link
+            </label>
+
+            <div class="flex gap-3">
+              <input
+                id="repo1"
+                type="text"
+                value="https://github.com/Joogad14/Tailwindcss-Project.git"
+                readonly
+                class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm outline-none"
+              />
+
+              <button
+                onclick="copyText('repo1')"
+                class="copy-btn bg-purple-500 hover:bg-purple-600 px-4 rounded-xl transition duration-300"
+              >
+                <i class="fa-solid fa-copy"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- ABOUT -->
+          <div>
+            <h4 class="font-semibold text-slate-300 mb-2">
+              About
+            </h4>
+
+            <p class="text-slate-400 leading-7" style="text-align: justify;">
+              This project was built using HTML, and TailwindCSS, and it is a simple, 
+              responsive website designed to clone HULU website.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- PROJECT 2 -->
+        <div class="glass rounded-3xl p-6 shadow-2xl">
+
+          <h3 class="text-2xl font-bold mb-6">
+            Project 2
+          </h3>
+
+          <!-- LIVE DEMO -->
+          <div class="mb-5">
+            <label class="block mb-2 font-semibold text-slate-300">
+              Live Demo
+            </label>
+
+            <div class="flex gap-3">
+              <input
+                id="live2"
+                type="text"
+                value="https://palindromtypescript.netlify.app/"
+                readonly
+                class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm outline-none"
+              />
+
+              <button
+                onclick="copyText('live2')"
+                class="copy-btn bg-cyan-500 hover:bg-cyan-600 px-4 rounded-xl transition duration-300"
+              >
+                <i class="fa-solid fa-copy"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- REPO LINK -->
+          <div class="mb-5">
+            <label class="block mb-2 font-semibold text-slate-300">
+              Repo Link
+            </label>
+
+            <div class="flex gap-3">
+              <input
+                id="repo2"
+                type="text"
+                value="https://github.com/Joogad14/TypeScript-Palindrome-app.git"
+                readonly
+                class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm outline-none"
+              />
+
+              <button
+                onclick="copyText('repo2')"
+                class="copy-btn bg-purple-500 hover:bg-purple-600 px-4 rounded-xl transition duration-300"
+              >
+                <i class="fa-solid fa-copy"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- ABOUT -->
+          <div>
+            <h4 class="font-semibold text-slate-300 mb-2">
+              About
+            </h4>
+
+            <p class="text-slate-400 leading-7" style="text-align: justify;">
+              A responsive, user-friendly palindrome checker web application built with HTML 
+              and Tailwind CSS for seamless navigation.
+            </p>
+          </div>
+
+        </div>
+
+        
+        </div>
+
+        <!-- PROJECT 3 -->
+        <div class="glass rounded-3xl p-6 shadow-2xl mt-10">
+
+          <h3 class="text-2xl font-bold mb-6">
+            Project 3
+          </h3>
+
+          <!-- LIVE DEMO -->
+          <div class="mb-5">
+            <label class="block mb-2 font-semibold text-slate-300">
+              Live Demo
+            </label>
+
+            <div class="flex gap-3">
+              <input
+                id="live2"
+                type="text"
+                value="https://schoolapp-management.netlify.app/"
+                readonly
+                class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm outline-none"
+              />
+
+              <button
+                onclick="copyText('live2')"
+                class="copy-btn bg-cyan-500 hover:bg-cyan-600 px-4 rounded-xl transition duration-300"
+              >
+                <i class="fa-solid fa-copy"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- REPO LINK -->
+          <div class="mb-5">
+            <label class="block mb-2 font-semibold text-slate-300">
+              Repo Link
+            </label>
+
+            <div class="flex gap-3">
+              <input
+                id="repo2"
+                type="text"
+                value="https://github.com/Joogad14/School-Management-System.git"
+                readonly
+                class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm outline-none"
+              />
+
+              <button
+                onclick="copyText('repo2')"
+                class="copy-btn bg-purple-500 hover:bg-purple-600 px-4 rounded-xl transition duration-300"
+              >
+                <i class="fa-solid fa-copy"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- ABOUT -->
+          <div>
+            <h4 class="font-semibold text-slate-300 mb-2">
+              About
+            </h4>
+
+            <p class="text-slate-400 leading-7" style="text-align: justify;">
+              A responsive, user-friendly School Management System web application built with Next.js, MongoDB, and Tailwind CSS. 
+              The admin can manage students, staff, parents, subjects, sessions, and payments, and can oversee student results and promotions. 
+              Parents can be linked to multiple students, make tuition payments, and view their children’s details and results. 
+              Staff can upload results, and students can view their own results.        
+            </p><br><br>
+
+            <p><b>The login details for access;</b></p><br>
+            <p><b>Student ID: </b>DYNAMIC/STU/2026/000002 <br><b>Password: </b>Blessing</p><br>
+
+            <p><b>Staff ID: </b>DYNAMIC/STAFF/2026/000005 <br><b>Password: </b>Joshua</p><br>
+
+            <p><b>Parent ID: </b>DYNAMIC/PARENT/2026/000002 <br><b>Password: </b>Bent</p><br>
+
+            <p><b>Admin ID: </b>DYNAMIC/ADMIN/2026/000007 <br><b>Password: </b>Taiwo</p>
+          </div>
+
+        </div>
+
+          
+
+    </section>
+
+    <!-- ================= LEVEL 5 ================= -->
+    <section>
+      <div class="flex items-center gap-3 mb-8">
+        <div class="w-3 h-10 bg-pink-400 rounded-full"></div>
+        <h2 class="text-3xl font-bold text-pink-400">
+          Level 5
+        </h2>
+      </div>
+
+      <div class="glass rounded-3xl p-6 shadow-2xl">
+        
+
+          <h3 class="text-2xl font-bold mb-6">
+            Project
+          </h3>
+
+          
+          <!-- REPO LINK -->
+          <div class="mb-5">
+            <label class="block mb-2 font-semibold text-slate-300">
+              Repo Link
+            </label>
+
+            <div class="flex gap-3">
+              <input
+                id="repo2"
+                type="text"
+                value="https://github.com/Joogad14/Data-Structure-and-algorithm.git"
+                readonly
+                class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm outline-none"
+              />
+
+              <button
+                onclick="copyText('repo2')"
+                class="copy-btn bg-purple-500 hover:bg-purple-600 px-4 rounded-xl transition duration-300"
+              >
+                <i class="fa-solid fa-copy"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- ABOUT -->
+          <div>
+            <h4 class="font-semibold text-slate-300 mb-2">
+              About
+            </h4>
+
+            <p class="text-slate-400 leading-7" style="text-align: justify;">
+              <b>Task Scheduler (Queue-Based):</b> This project simulates how tasks are handled using a FIFO queue.
+              Tasks are added to the end of the queue (enqueue) and processed from the front (dequeue).
+              The class also provides helper functions to view the next task (front), the last task (end), check if the queue is empty, and print the current task list.
+            </p>  
+
+            <p class="text-slate-400 leading-7" style="text-align: justify;">
+              <b>Undo–Redo System (Stack-Based):</b> This project implements an Undo–Redo system using two stacks. Every new action is stored in the undo stack, while undone actions are moved into the redo stack. 
+              This mimics how text editors and drawing apps manage editing history.
+            </p>
+
+            <p class="text-slate-400 leading-7" style="text-align: justify;">
+              <b>Unique Visitor Tracker (Set-Based):</b> This project implements a unique visitor tracker using a Set. Every new visitor ID is stored in the set, ensuring duplicates are automatically ignored. 
+              This mimics how websites track unique visitors using identifiers like email or IP address.
+            </p>
+          </div>
+
+    </section>
+
+  </main>
+
+  <!-- COPY SCRIPT -->
+  <script>
+    function copyText(id) {
+      const copyInput = document.getElementById(id);
+
+      navigator.clipboard.writeText(copyInput.value);
+
+      alert("Link copied successfully!");
+    }
+  </script>
+
+</body>
+</html>
